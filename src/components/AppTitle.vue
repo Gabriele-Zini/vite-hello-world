@@ -1,5 +1,16 @@
-<script></script>
+<script>
+export default {
+    data() {
+        return {
+            titleText: "La mia prima app con Vite!",
+        }
+    }
+}
+</script>
 
-<template></template>
+<template>
+    <h3>{{ titleText }}
+    </h3>
+</template>
 
 <style></style>
